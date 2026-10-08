@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OMNI VANTAGE User Manual Revision: Contradictions to resolve</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1c2430;--mute:#5b6675;--line:#d9dee6;--accent:#0b5cad;--accent-ink:#fff;--soft:#eef3f9;--warn:#a23b00}
+@media (prefers-color-scheme:dark){:root{--bg:#12161c;--card:#1b212a;--ink:#e8ecf1;--mute:#a3adba;--line:#323b47;--accent:#6aa9ee;--accent-ink:#0c1420;--soft:#232b36;--warn:#ffb27a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+main{max-width:920px;margin:0 auto;padding:24px 16px 120px}
+h1{font-size:1.6rem;line-height:1.25;margin:8px 0 16px}
+h2{font-size:1.2rem;margin:0 0 8px}
+h3{font-size:1.05rem;margin:24px 0 8px}
+section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px;margin:0 0 20px}
+p{margin:8px 0}
+ol{margin:8px 0 16px;padding-left:22px}
+.tw{overflow-x:auto;margin:12px 0}
+table.plain{border-collapse:collapse;width:100%;min-width:420px}
+table.plain th,table.plain td{border:1px solid var(--line);padding:6px 10px;text-align:left;font-variant-numeric:tabular-nums}
+table.plain th{background:var(--soft)}
+.who{display:grid;grid-template-columns:2fr 2fr 1fr;gap:12px;margin-top:12px}
+.who label{display:flex;flex-direction:column;gap:4px;font-weight:600;font-size:.9rem}
+.q{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.qt{display:grid;grid-template-columns:3em minmax(0,1fr);gap:4px}
+.no{font-weight:700;color:var(--accent)}
+.vs{display:block;margin-top:6px;color:var(--mute);font-size:.93rem}
+.vs span{display:block}
+.qa{display:grid;grid-template-columns:9.5em minmax(0,1fr);gap:8px;align-items:start}
+.qa.one{grid-template-columns:minmax(0,1fr)}
+.qa.pf{grid-template-columns:minmax(0,1fr) 10.5em}
+input[type=text],input[type=date],select,textarea{width:100%;font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:7px 9px}
+textarea{resize:vertical;min-height:2.6em}
+input:focus,select:focus,textarea:focus,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+select.set{border-color:var(--accent);font-weight:600}
+.overall{border:0;padding:0;margin:8px 0;display:grid;gap:8px}
+.overall label{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid var(--line);border-radius:8px}
+.sr{position:absolute;left:-9999px}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:10px 16px}
+.bar div{max-width:920px;margin:0 auto;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+#status{color:var(--mute);font-size:.92rem}
+#status.warn{color:var(--warn);font-weight:600}
+button{font:inherit;font-weight:600;border:0;border-radius:8px;padding:10px 18px;background:var(--accent);color:var(--accent-ink);cursor:pointer}
+@media (max-width:700px){.q{grid-template-columns:minmax(0,1fr)}.who{grid-template-columns:minmax(0,1fr)}.qa,.qa.pf{grid-template-columns:minmax(0,1fr)}}
+@media print{.bar{display:none}section{break-inside:auto}}
+</style>
+</head>
+<body>
+<main>
+<h1>OMNI VANTAGE User Manual Revision: Contradictions to resolve</h1>
+<section><h2>Purpose</h2>
+<p>The current OMNI VANTAGE User Manual (Rev 8.30) says two different things on the five points below. Please tell us which version is correct so the revised manual states one answer. It takes about two minutes.</p>
+<p>For each point choose <strong>Version 1</strong>, <strong>Version 2</strong> or <strong>Neither</strong>. If neither is right, write the correct answer in the comment. Then press <strong>Download my answers</strong> and email the file back.</p>
+<div class="who"><label>Your name<input type="text" id="who_name" autocomplete="name"></label><label>Role<input type="text" id="who_role"></label><label>Date<input type="date" id="who_date"></label></div></section><section><h2>Contradictions</h2>
+<div class="q"><div class="qt"><span class="no">1</span><span><b>Software version</b><span class="vs"><span><b>Version 1:</b> 8.30 (footer)</span><span><b>Version 2:</b> 8.00 (Figure 16)</span></span></span></div><div class="qa">
+<select id="c1a" data-label="1. Software version" data-section="Contradictions" data-kind="Correct version" aria-label="Correct version for 1. Software version"><option value="">Choose</option><option value="Version 1: 8.30 (footer)">Version 1</option><option value="Version 2: 8.00 (Figure 16)">Version 2</option><option>Neither</option></select>
+<textarea rows="2" placeholder="Comment or correct answer" id="c1b" data-label="1. Software version" data-section="Contradictions" data-kind="Comments" aria-label="Comments for 1. Software version"></textarea></div></div>
+<div class="q"><div class="qt"><span class="no">2</span><span><b>Zoom range with the +5 lens</b><span class="vs"><span><b>Version 1:</b> 2.6 to 60.6x, 61d to 122d (p. 52)</span><span><b>Version 2:</b> 2.7 to 61.6x, 61.6d to 121d (p. 53)</span></span></span></div><div class="qa">
+<select id="c2a" data-label="2. Zoom range with the +5 lens" data-section="Contradictions" data-kind="Correct version" aria-label="Correct version for 2. Zoom range with the +5 lens"><option value="">Choose</option><option value="Version 1: 2.6 to 60.6x, 61d to 122d (p. 52)">Version 1</option><option value="Version 2: 2.7 to 61.6x, 61.6d to 121d (p. 53)">Version 2</option><option>Neither</option></select>
+<textarea rows="2" placeholder="Comment or correct answer" id="c2b" data-label="2. Zoom range with the +5 lens" data-section="Contradictions" data-kind="Comments" aria-label="Comments for 2. Zoom range with the +5 lens"></textarea></div></div>
+<div class="q"><div class="qt"><span class="no">3</span><span><b>Lenses offered</b><span class="vs"><span><b>Version 1:</b> +10 only, in accessories (p. 3)</span><span><b>Version 2:</b> +10 and +25, in specifications (p. 53)</span></span></span></div><div class="qa">
+<select id="c3a" data-label="3. Lenses offered" data-section="Contradictions" data-kind="Correct version" aria-label="Correct version for 3. Lenses offered"><option value="">Choose</option><option value="Version 1: +10 only, in accessories (p. 3)">Version 1</option><option value="Version 2: +10 and +25, in specifications (p. 53)">Version 2</option><option>Neither</option></select>
+<textarea rows="2" placeholder="Comment or correct answer" id="c3b" data-label="3. Lenses offered" data-section="Contradictions" data-kind="Comments" aria-label="Comments for 3. Lenses offered"></textarea></div></div>
+<div class="q"><div class="qt"><span class="no">4</span><span><b>When the warranty period starts</b><span class="vs"><span><b>Version 1:</b> One year from purchase (p. 21)</span><span><b>Version 2:</b> 12 months from delivery (p. 55)</span></span></span></div><div class="qa">
+<select id="c4a" data-label="4. When the warranty period starts" data-section="Contradictions" data-kind="Correct version" aria-label="Correct version for 4. When the warranty period starts"><option value="">Choose</option><option value="Version 1: One year from purchase (p. 21)">Version 1</option><option value="Version 2: 12 months from delivery (p. 55)">Version 2</option><option>Neither</option></select>
+<textarea rows="2" placeholder="Comment or correct answer" id="c4b" data-label="4. When the warranty period starts" data-section="Contradictions" data-kind="Comments" aria-label="Comments for 4. When the warranty period starts"></textarea></div></div>
+<div class="q"><div class="qt"><span class="no">5</span><span><b>Contact for warranty and service</b><span class="vs"><span><b>Version 1:</b> Your distributor (p. 55)</span><span><b>Version 2:</b> ASH (p. 8, 19, 21, 22, 27)</span></span></span></div><div class="qa">
+<select id="c5a" data-label="5. Contact for warranty and service" data-section="Contradictions" data-kind="Correct version" aria-label="Correct version for 5. Contact for warranty and service"><option value="">Choose</option><option value="Version 1: Your distributor (p. 55)">Version 1</option><option value="Version 2: ASH (p. 8, 19, 21, 22, 27)">Version 2</option><option>Neither</option></select>
+<textarea rows="2" placeholder="Comment or correct answer" id="c5b" data-label="5. Contact for warranty and service" data-section="Contradictions" data-kind="Comments" aria-label="Comments for 5. Contact for warranty and service"></textarea></div></div>
+</section>
+</main>
+<div class="bar"><div><span id="status" role="status"></span><button type="button" id="dl">Download my answers</button></div></div>
+<script>
+(function(){
+var KEY='omni-vantage-contradictions-v1';
+var fields=[].slice.call(document.querySelectorAll('[data-label]'));
+var who=['who_name','who_role','who_date'].map(function(i){return document.getElementById(i)});
+var status=document.getElementById('status');
+function overall(){var r=document.querySelector('input[name=overall]:checked');return r?r.value:''}
+function mark(){fields.forEach(function(f){if(f.tagName==='SELECT')f.classList.toggle('set',!!f.value)});
+ var d=fields.filter(function(f){return f.tagName==='SELECT'});var n=d.filter(function(f){return f.value}).length;
+ status.className='';status.textContent=n+' of '+d.length+' points answered';}
+function save(){var s={};fields.concat(who).forEach(function(f){if(f.value)s[f.id]=f.value});s.overall=overall();
+ try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){} mark();}
+function load(){var s=null;try{s=JSON.parse(localStorage.getItem(KEY)||'null')}catch(e){}
+ if(s){fields.concat(who).forEach(function(f){if(s[f.id])f.value=s[f.id]});
+  if(s.overall){[].forEach.call(document.querySelectorAll('input[name=overall]'),function(r){r.checked=(r.value===s.overall)})}}
+ mark();}
+function cell(v){v=String(v==null?'':v);return '"'+v.replace(/"/g,'""')+'"'}
+function download(){
+ var name=who[0].value.trim();
+ if(!name){status.className='warn';status.textContent='Please enter your name at the top first.';who[0].focus();return}
+ var rows=[['Section','Item','Field','Answer'],
+  ['Reviewer','Name','',name],['Reviewer','Role','',who[1].value],['Reviewer','Date','',who[2].value]];
+ fields.forEach(function(f){rows.push([f.dataset.section,f.dataset.label,f.dataset.kind,f.value])});
+ 
+ var csv='\ufeff'+rows.map(function(r){return r.map(cell).join(',')}).join('\r\n');
+ var a=document.createElement('a');
+ a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+ a.download='approval-form-'+name.replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'')+'.csv';
+ document.body.appendChild(a);a.click();a.remove();
+ status.className='';status.textContent='Downloaded. Please email the file back.';
+}
+document.addEventListener('input',save);document.addEventListener('change',save);
+document.getElementById('dl').addEventListener('click',download);
+load();
+})();
+</script>
+</body>
+</html>
